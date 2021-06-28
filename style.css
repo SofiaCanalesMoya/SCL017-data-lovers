@@ -1,0 +1,153 @@
+body {
+    background-image: url("/imagenes/fondo.png");
+}
+
+h1,h2, body{
+    margin: 0px;
+    padding: 0px; 
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#paginaUno {
+    background-image: url("/imagenes/imgFondo.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: absolute;
+    
+    color: #FFF;
+    font-family: 'Arial, Helvetica', sans-serif;
+    
+}
+
+#paginaUno h1{
+    position: absolute;
+    width: 370px;
+    height: 190px;
+    left: 842px;
+    top: 246px;
+    font-weight: bold;
+    font-size: 72px;
+}
+
+#paginaUno h2{
+    position: absolute;
+    width: 650px;
+    height: 190px;
+    left: 842px;
+    top: 196px;
+    font-weight: normal;
+    font-size: 42px;
+}
+
+#paginaUno button{
+    position: absolute;
+    width: 193px;
+    height: 55px;
+    left: 800px;
+    top: 429px;
+
+    background: #ABD3EE;
+    border-radius: 10px;
+    border-bottom: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+
+    color: #123A43;
+
+}
+
+
+#paginaDos {
+  display: none;
+}
+
+
+#tituloPagina{
+    background-color: #6BAC2B;
+    opacity: 0.9;
+    color: #FFF;
+    font-family: 'Arial, Helvetica', sans-serif;
+    padding: 16px 24px;
+    margin-top: 42px;
+    margin-bottom: 30px;
+}
+
+.headerIcon{
+    float:left;
+    margin-top: -48px;
+}
+
+#tituloPagina h2{
+    font-weight: normal;
+}
+
+.personaje {
+    
+    background: #FFFFFF;
+    width: 280px; 
+    height: 360px;
+    left: 407px;
+    float: left;
+    border: inset;
+    margin: 22px;
+    box-shadow: 1px 1px 1px #999;
+    border-radius: 10px;
+    border-top: 10px solid hsl(90, 60%, 42%);
+    border-bottom: 5px solid #6BAC2B ;
+   
+}
+.nombre {
+    color: #123A43;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 42px;
+    margin-left: 55px;
+    
+}
+
+.imagen {
+     
+    width: 175px; 
+    height: 175px;
+    left: 76px;
+    top: 52px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px #999;
+}
+.button {
+    width: 200px;
+    height: 35px;
+    right: 17px;
+    bottom: 21px;
+    margin-left: 45px;
+
+    background: #C4C4C4;
+    border-radius: 6px;
+    border-style: none;
+    border-bottom: 6px solid hsl(90, 60%, 42%);
+    box-shadow: 3px 3px 3px #999;
+
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal ;
+    font-weight: bold;
+    font-variant-caps: all-petite-caps;
+    color: #123A43;
+}
+
