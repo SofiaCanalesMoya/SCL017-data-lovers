@@ -1,29 +1,13 @@
-import { example, anotherExample } from '../src/data.js';
+import { filterData } from '../src/data.js';
+import data from '../src/data/rickandmorty/rickandmorty.js';
 
-/**
- * - DESCRIBE: Sirve para blablabla
- * - IT: Sirve para blablabla
- * - IT: Sirve para blablabla
- * 
- */
-
-describe('example', () => {
+describe('filterData', () => {
   it('is a function', () => {
-    expect(typeof example).toBe('function');
+    expect(typeof filterData).toBe('function');
   });
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it('returns data', () => {
+    expect(filterData(data[0], 'Human')).toBe(true);
   });
 });
 
 
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});

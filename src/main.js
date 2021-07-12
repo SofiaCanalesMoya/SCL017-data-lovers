@@ -1,5 +1,5 @@
 import data from './data/rickandmorty/rickandmorty.js'
-import { filterData, sortData }  from './data.js'
+import { filterData }  from './data.js'
 
 // Vamos a hacer que la pagina uno pase a la pagina dos
 document.getElementById("pasarPagina").addEventListener("click", function () {
